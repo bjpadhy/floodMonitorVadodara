@@ -1,0 +1,22 @@
+{
+  "name": "flood-monitor",
+  "version": "1.0.0",
+  "description": "flood monitor stats REST API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "run-dev": "nodemon index.js"
+  },
+  "author": "Biswaranjan Padhy",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.0.0",
+    "mongodb": "^3.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
